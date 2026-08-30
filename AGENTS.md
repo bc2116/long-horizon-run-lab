@@ -10,11 +10,13 @@
 
 ## Verified commands
 
+- Install: `npm install`
 - Develop: `npm run dev`
 - Test: `npm run test`
 - Lint: `npm run lint`
 - Build: `npm run build`
-- No formatter or standalone typecheck script is currently declared.
+- TODO: no formatter or standalone typecheck script is currently declared.
+- Docs build: TODO — no declared command.
 
 ## Documentation and quality
 
@@ -22,3 +24,9 @@
 - Data and methodology guide: `docs/RUNNING-TRACKING-DOCUMENTATION.md`
 - Before a commit or deployment, run the relevant checks and report any skipped
   validation explicitly.
+
+## Codex skill routing
+
+- Use `$repo-map` for repository bootstrap or command discovery.
+- Use `$pr-review` for pull-request and diff reviews.
+- Use `$docs-refresh` for documentation or runbook updates.
